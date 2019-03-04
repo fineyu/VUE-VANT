@@ -5,12 +5,19 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-
+      token:""
   },
   mutations: {
-
+    increment (state) {
+      // 变更状态
+      state.token
+    }
   },
   actions: {
 
   }
 })
+
+
+
+
